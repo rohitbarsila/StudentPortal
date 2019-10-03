@@ -25,7 +25,7 @@ SECRET_KEY = 'c5bc=0tugxb&as0hc6ph)_s-vjw6oa)xllk6uc*o%b!_5+r-s+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dsbstudentportal.herokuapp.com']
 
 
 # Application definition
