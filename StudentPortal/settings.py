@@ -120,7 +120,7 @@ USE_L10N = True
 USE_TZ = True
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(PROJECT_PATH, 'staticfiles')
+STATIC_ROOT = os.path.join(PROJECT_PATH, 'static')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 REST_FRAMEWORK={
