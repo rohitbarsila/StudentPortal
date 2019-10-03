@@ -3,3 +3,6 @@ Django
 django-tastypie
 pyes
 djangorestframework
+django
+gunicorn
+django-heroku
