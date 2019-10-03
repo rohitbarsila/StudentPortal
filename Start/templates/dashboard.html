@@ -118,17 +118,22 @@
               </tr>
             </thead>
             <tbody>
-            {% for x in data %}
+            {% for x in info %}
               <tr>
-                <td>{{ data.Name }}</td>
-                <td>45 Drivewood Circle</td>
-                <td>
-                  <a class="btn btn-light" href="#">View Listing</a>
-                </td>
+                  <td>{{ x.id }}</td>
+                  <td>{{ x.Name }}</td>
+                  <td>{{ x.Email }}</td>
+                  <td>{{ x.Course }}</td>
+                  <td>{{ x.Sem }}</td>
+                  <td>{{ x.Subjects }}</td>
+                  <td>{{ x.Query }}</td>
               </tr>
             {% endfor %}
             </tbody>
           </table>
+                {% else %}
+                <h1>Want To Help Us In Student Welfare </h1>
+                <h2>Mail At rohit.barsila@gmail.com</h2>
             {% endif %}
         </div>
       </div>
@@ -141,9 +146,9 @@
     <span class="year"></span> BT Real Estate
   </footer>
 
-  <script src="assets/js/jquery-3.3.1.min.js "></script>
-  <script src="assets/js/bootstrap.bundle.min.js "></script>
-  <script src="assets/js/main.js "></script>
+  <script src={%static "assets/js/jquery-3.3.1.min.js"%}></script>
+  <script src={%static "assets/js/bootstrap.bundle.min.js"%}></script>
+  <script src={%static "assets/js/main.js"%}></script>
 </body>
 
 </html>

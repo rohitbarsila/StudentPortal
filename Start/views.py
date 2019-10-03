@@ -48,10 +48,7 @@ def login(request):
 
 def dashboard(request):
     info=data.objects.all()
-    que = {
-        'query':data
-    }
-    return render(request,'dashboard.html')
+    return render(request,'dashboard.html',locals())
 
 def logout(request):
     if request.method == 'POST':
