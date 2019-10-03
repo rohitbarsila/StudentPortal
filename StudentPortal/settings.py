@@ -141,3 +141,4 @@ from django.contrib.messages import  constants as messages
 MESSAGE_TAG={
     messages.ERROR:'danger'
 }
+django_heroku.settings(locals())
