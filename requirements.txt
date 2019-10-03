@@ -2,3 +2,4 @@ numpy
 Django
 django-tastypie
 pyes
+djangorestframework
