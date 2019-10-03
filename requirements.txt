@@ -6,4 +6,3 @@ djangorestframework
 django
 gunicorn
 django-heroku
-whitenose
